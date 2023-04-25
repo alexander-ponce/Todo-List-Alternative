@@ -48,7 +48,7 @@ function App() {
     <div className="App" >
       <form onSubmit={(event) => {
         handleNewTodoSubmit(event);
-      }}>
+      }} >
       <input onChange={(event) => {
         setNewTodo (event.target.value);
         }} 

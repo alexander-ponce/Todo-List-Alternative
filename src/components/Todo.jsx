@@ -8,7 +8,7 @@ const Todo = (props) => {
           }
 
   return (
-        <div>
+        <div className= "body">
               <input onChange={(event) => {
                 props.handleToggleTodoComplete(props.i);
               }} 
